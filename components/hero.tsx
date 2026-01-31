@@ -136,9 +136,9 @@ export default function Hero() {
 
           <motion.div variants={itemVariants} className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             {[
-              { value: "9.5+", label: "Years Experience" },
-              { value: "50+", label: "Projects Completed" },
-              { value: "5", label: "Team Lead" },
+              { value: "1.5+", label: "Years Experience" },
+              { value: "5+", label: "Projects Completed" },
+              { value: "4", label: "Team Lead" },
             ].map((stat, idx) => (
               <motion.div
                 key={idx}
