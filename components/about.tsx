@@ -87,7 +87,7 @@ export default function About() {
 
           <motion.div variants={itemVariants} className="mb-16 max-w-3xl">
             <p className="text-xl text-muted-foreground leading-relaxed mb-6">
-              I'm a passionate Sr. Digital Marketing Executive & Web developer with{" "}
+              I'm a passionate Digital Marketing Executive & Web developer with{" "}
               <span className="font-semibold text-foreground">1.5+ years</span> of experience in Versatile Digital Marketing Executive & Web Developer skilled in full-funnel optimisation, combining Google Ads, GA4 tracking, and Meta Ads campaigns with custom front-end development using HTML/CSS/JS, React, and Next.js. Experienced in A/B testing landing pages, conversion rate optimisation, and integrating analytics for real-time performance insights that improve lead quality and sales for high-end B2C brands. Eager to bring end-to-end digital expertise to innovative teams in India or abroad. 
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -110,20 +110,20 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-8 text-foreground">Quick Info</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { label: "Location", value: "Pune, India", icon: <MapPin size={24} strokeWidth={1.5} /> },
+                { label: "Location", value: "Hyderabad, India", icon: <MapPin size={24} strokeWidth={1.5} /> },
                 {
                   label: "Email",
-                  value: "nikiteshb@gmail.com",
-                  link: "mailto:nikiteshb@gmail.com",
+                  value: "tharunjamparapu@gmail.com",
+                  link: "mailto:tharunjamparapu@gmail.com",
                   icon: <Mail size={24} strokeWidth={1.5} />,
                 },
                 {
                   label: "Phone",
-                  value: "+91 9561501506",
-                  link: "tel:+919561501506",
+                  value: "+91 7997788621",
+                  link: "tel:+917997788621",
                   icon: <Phone size={24} strokeWidth={1.5} />,
                 },
-                { label: "Experience", value: "9.5+ Years", icon: <Clock size={24} strokeWidth={1.5} /> },
+                { label: "Experience", value: "1.5+ Years", icon: <Clock size={24} strokeWidth={1.5} /> },
               ].map((item, idx) => (
                 <motion.div
                   key={idx}
