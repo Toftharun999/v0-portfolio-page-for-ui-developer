@@ -92,7 +92,7 @@ export default function Hero() {
             className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight"
           >
             <span className="bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
-              Nikitesh Bhadade
+              Jamparapu Tharun
             </span>
           </motion.h1>
 
@@ -100,12 +100,12 @@ export default function Hero() {
             variants={itemVariants}
             className="text-xl sm:text-2xl text-muted-foreground mb-4 text-balance font-semibold"
           >
-            Sr. Software Engineer & UI Developer
+            Sr. Digital Marketing Executive and Web Developer
           </motion.p>
 
           <motion.div variants={itemVariants} className="mb-12">
             <TextGenerateEffect
-              words="9.5+ years transforming high-fidelity designs into pixel-perfect, performant React experiences. Specialized in SASS, accessibility standards, and design-to-code conversion."
+              words="1.5+ years of experience in HTML, CSS, React, JavaScript, and Google Ads, SEO, Meta Ads,....etc.Currently, I bridge the gap between technical development and marketing strategy. I specialize in building fast, SEO-optimized web applications using React.js and Next.js, while leveraging my expertise in Google Ads and Analytics to ensure they reach the right audience."
               className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed"
               duration={0.05}
               filter={true}
