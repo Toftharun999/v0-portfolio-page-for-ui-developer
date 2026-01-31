@@ -49,7 +49,7 @@ Photography, Mobile Games, Snapchat Filters, Cricket, Music and Editing
     // Create a simple text-based response that can be downloaded as a file
     const headers = new Headers()
     headers.set("Content-Type", "text/plain; charset=utf-8")
-    headers.set("Content-Disposition", 'attachment; filename="Nikitesh_Bhadade_Resume.txt"')
+    headers.set("Content-Disposition", 'attachment; filename="Jamparapu_Tharun_Resume.txt"')
 
     return new NextResponse(resumeContent, {
       status: 200,
