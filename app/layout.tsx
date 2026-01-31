@@ -113,6 +113,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TDW58W7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </body>
     </html>
   )
