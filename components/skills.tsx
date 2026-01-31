@@ -14,19 +14,19 @@ export default function Skills() {
     {
       title: "Styling",
       icon: Palette,
-      skills: ["SASS", "LESS", "Tailwind CSS", "Bootstrap 5", "Material UI", "Responsive Design"],
+      skills: ["Figma", "Tailwind CSS", "Bootstrap 5", "Material UI", "Responsive Design"],
       color: "from-purple-500 to-pink-500",
     },
     {
       title: "CMS & Tools",
       icon: Database,
-      skills: ["Drupal", "Git", "Figma", "InVision", "Adobe Suite", "Playwright"],
+      skills: ["WordPress", "Git", "Webflow", "Custom Code Integration", "Adobe Suite", "Landing Page Builders"],
       color: "from-orange-500 to-red-500",
     },
     {
       title: "Standards",
       icon: Zap,
-      skills: ["WCAG 2.2 AA", "ADA Compliance", "Web Accessibility", "Performance Optimization"],
+      skills: ["SEO", "Mobile-First", "Web Accessibility", "Performance Optimization"],
       color: "from-green-500 to-emerald-500",
     },
   ]
