@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a
-                  href="mailto:nikiteshb@gmail.com"
+                  href="mailto:tharunjamparapu@gmail.com"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
                 >
                   Email
@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/nikiteshbhadade/"
+                  href="https://www.linkedin.com/in/jamparapu-tharun/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/nikiteshb"
+                  href="https://github.com/Toftharun999"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
@@ -90,12 +90,12 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="font-bold mb-4">Location</h3>
-            <p className="text-sm text-muted-foreground">Pune, India</p>
+            <p className="text-sm text-muted-foreground">Hyderabad, India</p>
           </div>
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>&copy; {currentYear} Nikitesh Bhadade. All rights reserved.</p>
+          <p>&copy; {currentYear} Jamparapu Tharun. All rights reserved.</p>
           <p>Crafted with React & Tailwind CSS</p>
         </div>
       </div>
