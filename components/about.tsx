@@ -27,35 +27,35 @@ export default function About() {
 
   const highlights = [
     {
-      title: "Design to Code",
+      title: "Campaigns to Code",
       description:
-        "Converting pixel-perfect Figma/PSD designs into production-ready React applications with precision.",
+        "Translating brand goals and creative concepts into high-converting ad campaigns and pixel-perfect landing pages using HTML/CSS/JS and React/Next.js.",
       icon: <Code2 size={28} strokeWidth={1.5} className="text-primary" />,
     },
     {
-      title: "Team Leadership",
+      title: "Collaboration & Ownership",
       description:
-        "Led UI/frontend teams of 5+ designers, fostering collaboration and delivering high-quality interfaces.",
+        "Working closely with designers, founders, and sales teams to align marketing strategy, web development, and on-ground business needs, ensuring consistent communication and timely delivery.",
       icon: <Users size={28} strokeWidth={1.5} className="text-primary" />,
     },
     {
-      title: "Accessibility First",
-      description: "Committed to WCAG 2.2 AA standards, ensuring inclusive experiences for all users.",
+      title: "Analytics & Tracking First",
+      description: "Implementing GA4, pixel tracking, and event-based analytics to measure the full funnel accurately and make data-driven optimisation decisions across search, social, and web.",
       icon: <Shield size={28} strokeWidth={1.5} className="text-primary" />,
     },
     {
-      title: "Performance",
-      description: "Optimizing web applications for speed, efficiency, and modern web standards compliance.",
+      title: "Performance Optimisation",
+      description: "Improving campaign ROI and website performance by optimising bids, targeting, and creatives, and enhancing page speed, UX, and technical SEO for better engagement and conversions.",
       icon: <Zap size={28} strokeWidth={1.5} className="text-primary" />,
     },
     {
       title: "Creative Problem Solving",
-      description: "Tackling complex UI challenges with innovative solutions and attention to detail.",
+      description: "Solving complex marketing and UX challenges with innovative campaign ideas, A/B tests, and UI changes that align user behaviour with business outcomes.",
       icon: <Lightbulb size={28} strokeWidth={1.5} className="text-primary" />,
     },
     {
       title: "Continuous Learning",
-      description: "Staying updated with latest technologies, frameworks, and design trends in web development.",
+      description: "Staying updated with the latest ad platforms, SEO practices, JavaScript frameworks, and CRO techniques, and applying new learnings quickly to real campaigns and products.",
       icon: <BookOpen size={28} strokeWidth={1.5} className="text-primary" />,
     },
   ]
