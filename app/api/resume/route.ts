@@ -3,70 +3,47 @@ import { NextResponse } from "next/server"
 export async function GET() {
   try {
     const resumeContent = `
-NIKITESH BHADADE
-Web UI Developer
-nikiteshb@gmail.com | 09561501506 | Pune, India
-
-SUMMARY
-Accomplished Sr. Software Engineer with a strong background at Globant India Pvt Ltd, focusing on React.js and JavaScript. Committed to delivering pixel-perfect UIs and advancing accessibility standards. Experienced in team leadership and driving innovative solutions, resulting in enhanced user experiences and compliance with contemporary web standards.
-
-SKILLS
-Frontend: React.js, JavaScript, HTML5, CSS3
-Styling: SASS, LESS, Bootstrap 5, Tailwind CSS, MUI
-CMS & Tools: Drupal, Wordpress, Figma, InVision
-Design: Photoshop, Illustrator
-Standards: Responsive web design, ADA/WCAG 2.2 AA accessibility standards
-Version Control: Git
-
+JAMPARAPU THARUN  
+Digital Marketing Executive and Web Developer
+tharunjamparapu@gmail.com |P: +91 7997788621 | www.linkedin.com/in/jamparapu-tharun  
+EDUCATION  
+  
+OSMANIA UNIVERSITY                                                                                                  HYDERABAD  
+Bachelor of science in Statistics                                                                                           2024  
+•	Key courses:  Web development, Data analysis, Nodejs, Typescript, Data mining, Computer Communication Network, Statistics with python.
+ 
+SKILLS  
+  
+•	Programming Languages: Java, Python, C, 
+•	Frameworks:                       Pandas, NumPy, Matplotlib  
+•	Tools:           WordPress, Figma, Visual studio code, Google colab
+•       Design:        Photoshop, Illustrator
+•	Data Analysis & Visualization:    Data Cleaning, Data Wrangling, Exploratory Data Analysis (EDA), Statistical Analysis, Hypothesis Testing, Time Series Analysis, Data Visualization. 
+ 
+PROJECTS  
+  
+A STUDY ON IMPACT OF SOCIAL MEDIA ON MENTAL HEALTH  
+•	The relationship between social media usage patterns and mental health outcomes.  
+•	Tools used are R studio, Google Colabs, python, pandas, matplotlib.  
+•	Cleaning and preprocessing the data, and also implementing EDA to understand the patterns.  
+•	Statistical methods used are Regression, Z-test, Chi-Square test and Correlation.  
+WEBSITE DEVELOPMENT  
+•	Website development on Smartapp software.  
+•	This is my portfolio https://jamparaputharun.in/
+•	Current I’m working as Digital Marketing Manager at  https://urbaneoutdoor.com/
+CERTIFICATIONS  
+WEBSITE DEVELOPMENT                                                                      SMARTAPP TECHNOLOGIES  
 EXPERIENCE
-
-Sr. Software Engineer
-Globant India Pvt Ltd | 11/2020 – Present | Pune
-• Led UI/frontend team of 5 designers to develop interactive user interfaces using JavaScript, HTML5, CSS3, SASS, React, and Drupal
-• Delivered pixel-perfect UIs by converting PSD/Figma/InDesign designs into production web applications
-• Revamped legacy products to boost performance and ensured compliance with new web standards
-• Enhanced accessibility features/standards like WCAG 2.2 AA to meet current guidelines and improve user experience
-
-Sr. Web Designer
-Markets and Markets Research Pvt. Ltd | 05/2019 – 11/2020 | Pune
-• Created responsive web pages, integrating PSD designs to HTML and Angular 7
-• Designed UIs for dynamic email templates, enhancing user experience
-• Restyled UI components for improved appeal and usability; managed version control with Git
-
-Web Designer
-Yardi Software India Pvt. Ltd | 10/2017 – 05/2019 | Pune
-• Executed design process for dynamic/static email templates, integrating PSD to HTML/.NET framework
-• Redesigned products for modern standards and ADA compliance
-• Enhanced accessibility features/standards like WCAG 2.2 AA to meet current guidelines
-• Managed frontend UI for Angular 2; resolved page issues efficiently
-
-Web Designer
-Circl Design India Pvt. Ltd | 04/2017 – 09/2017 | Pune
-• Developed website projects using HTML, CSS, WordPress
-• Created responsive layouts with Bootstrap, dynamic functions with JavaScript/jQuery
-
-UI Engineer
-Sycamore Software Solutions Pvt. Ltd | 06/2015 – 03/2017 | Pune
-• Developed newsletters/web projects using HTML, CSS, WordPress, Bootstrap, and JavaScript/jQuery
-
-Web Graphics Designer
-Valency Realty Pvt. Ltd | 07/2014 – 05/2015 | Pune
-• Led a team in pre-sales activities, digital and print campaigns, SEO/SMO initiatives
-• Designed promotional graphics for campaigns and social media
-
-EDUCATION
-
-Master of Science in Computer Science
-K. R. Pandav College, Nagpur University | 2012 | Nagpur
-
-Bachelor of Computer Applications (BCA)
-G.H. Raisoni Institute of Information Technology, Nagpur University | 2007 – 2011 | Nagpur
+One year experience in web development and digital marketing at Design Heaven Interiors
+20/08/2024 to 30/10/2025
+Present I’m working at Urbane Outdoor furniture as digital marketing executive, web development and SEO.
 
 LANGUAGES
-Marathi, Hindi, English
+English, Telugu, Hindi 
 
 INTERESTS
-Cricket, Photography, PC Games, Music
+Photography, Mobile Games, Snapchat Filters, Cricket, Music and Editing
+
     `
 
     // Create a simple text-based response that can be downloaded as a file
