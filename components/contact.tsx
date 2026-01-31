@@ -28,15 +28,15 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "nikiteshb@gmail.com",
-      href: "mailto:nikiteshb@gmail.com",
+      value: "tharunjamparapu@gmail.com",
+      href: "mailto:tharunjamparapu@gmail.com",
       color: "from-red-500 to-pink-500",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Visit Profile",
-      href: "https://www.linkedin.com/in/nikiteshbhadade/",
+      href: "https://www.linkedin.com/in/jamparapu-tharun/",
       color: "from-blue-500 to-cyan-500",
       external: true,
     },
@@ -44,7 +44,7 @@ export default function Contact() {
       icon: Github,
       label: "GitHub",
       value: "View Code",
-      href: "https://github.com/nikiteshb",
+      href: "https://github.com/Toftharun999",
       color: "from-gray-600 to-gray-800",
       external: true,
     },
@@ -86,7 +86,7 @@ export default function Contact() {
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             My professional focus is on finding the next great job or project. Always open to conversations about
-            full-time employment, contract roles, or collaboration in the React ecosystem. Drop me a line!
+            full-time or part-time employment, contract roles, or collaboration in the React ecosystem. Drop me a line!
           </p>
         </motion.div>
 
