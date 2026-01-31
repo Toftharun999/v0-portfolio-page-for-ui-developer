@@ -7,26 +7,26 @@ export default function WorkProcess() {
   const processSteps = [
     {
       icon: Lightbulb,
-      title: "Discovery & Strategy",
-      description: "Understanding project goals, user needs, and technical requirements to create a solid foundation.",
+      title: "Research & Strategy",
+      description: "Defining campaign goals, audience research, keyword analysis, competitor benchmarking, and technical requirements for optimal landing pages.",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Figma,
       title: "Design & Prototyping",
-      description: "Creating pixel-perfect designs in Figma with accessibility and responsiveness in mind.",
+      description: "Creating high-fidelity ad creatives, landing page wireframes, and prototypes in Figma with accessibility and conversion focus.",
       color: "from-purple-500 to-pink-500",
     },
     {
       icon: Code2,
       title: "Development & Implementation",
-      description: "Converting designs to production-ready code using React, SASS, and modern web standards.",
+      description: "Building responsive landing pages with React/Next.js, implementing tracking pixels, and launching multi-channel ad campaigns (Google Ads, Meta Ads).",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: CheckCircle2,
       title: "Testing & Optimization",
-      description: "Ensuring WCAG 2.2 AA compliance, performance optimization, and cross-browser compatibility.",
+      description: "Running A/B tests, analysing GA4 data, refining targeting/bidding, and iterating on UX/performance for maximum ROI and conversion rates.",
       color: "from-orange-500 to-red-500",
     },
   ]
@@ -35,17 +35,17 @@ export default function WorkProcess() {
     {
       icon: Users,
       title: "Team Leadership",
-      description: "Led UI/frontend teams of 5+ designers to deliver exceptional user experiences.",
+      description: "Led digital marketing campaigns and web development projects, aligning creative, technical, and sales teams to deliver high-performing brand experiences.",
     },
     {
       icon: Zap,
       title: "Performance First",
-      description: "Optimized legacy products for speed and modern web standards compliance.",
+      description: "Optimised ad campaigns for maximum ROI and web pages for speed, SEO, and conversion, ensuring every click has the highest chance of becoming a customer.",
     },
     {
       icon: CheckCircle2,
       title: "Accessibility Expert",
-      description: "WCAG 2.2 AA certified with deep expertise in ADA compliance and inclusive design.",
+      description: "Deep expertise in GA4, conversion tracking, and user behaviour analysis, using data to drive continuous improvements in both marketing strategy and website UX.",
     },
   ]
 
