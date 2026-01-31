@@ -100,7 +100,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-xl sm:text-2xl text-muted-foreground mb-4 text-balance font-semibold"
           >
-            Sr. Digital Marketing Executive and Web Developer
+            Digital Marketing Executive and Web Developer
           </motion.p>
 
           <motion.div variants={itemVariants} className="mb-12">
