@@ -41,6 +41,19 @@ export default function Contact() {
       external: true,
     },
     {
+      icon: "Instagram",
+  label: "Instagram",
+  href: "https://www.instagram.com/_tha.run.07?igsh=MXRkNXQzNXpjdWMyMw==",
+  color: "from-purple-500 to-pink-500"
+},
+{
+  icon: "Snapchat",
+  label: "Snapchat",
+  href: "https://snapchat.com/add/tharunjam",
+  color: "from-orange-500 to-yellow-500",
+  external: true
+}
+    {
       icon: Github,
       label: "GitHub",
       value: "View Code",
