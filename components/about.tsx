@@ -87,18 +87,16 @@ export default function About() {
 
           <motion.div variants={itemVariants} className="mb-16 max-w-3xl">
             <p className="text-xl text-muted-foreground leading-relaxed mb-6">
-              I'm a passionate Sr. Software Engineer with{" "}
-              <span className="font-semibold text-foreground">9.5+ years</span> of experience in React.js, JavaScript,
-              and design-to-code conversion. My expertise lies in transforming pixel-perfect designs into
-              production-ready web applications while maintaining accessibility standards.
+              I'm a passionate Sr. Digital Marketing Executive & Web developer with{" "}
+              <span className="font-semibold text-foreground">1.5+ years</span> of experience in Versatile Digital Marketing Executive & Web Developer skilled in full-funnel optimisation, combining Google Ads, GA4 tracking, and Meta Ads campaigns with custom front-end development using HTML/CSS/JS, React, and Next.js. Experienced in A/B testing landing pages, conversion rate optimisation, and integrating analytics for real-time performance insights that improve lead quality and sales for high-end B2C brands. Eager to bring end-to-end digital expertise to innovative teams in India or abroad. 
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              At <span className="font-semibold text-foreground">Globant India</span>, I am leading a UI/frontend team of 5, delivering high-quality interactive interfaces and advancing web accessibility standards. I'm
-              committed to performance optimization, modern web standards, and creating inclusive digital experiences.
+              At <span className="font-semibold text-foreground">Urbane Home & Garden</span>, I am leading a UI/frontend team of 5, delivering high-quality interactive interfaces and advancing web accessibility standards. I'm
+              committed to performance optimization, execute Google Ads, SEO, and social media strategies while also building and improving landing pages using modern web technologies to turn traffic into qualified leads, modern web standards, and creating inclusive digital experiences.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Beyond code, I'm passionate about{" "}
-              <span className="font-semibold text-foreground">cricket, photography, and gaming</span>. I believe in
+              <span className="font-semibold text-foreground">cricket, photography, editing, snapchat filter and gaming(BGMI)</span>. I believe in
               continuous learning and staying updated with the latest technologies and design trends.
             </p>
           </motion.div>
