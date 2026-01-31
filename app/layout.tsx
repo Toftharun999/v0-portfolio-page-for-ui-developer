@@ -67,15 +67,21 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0YP0E91RT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X0YP0E91RT');
-</script>
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-X0YP0E91RT" />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-X0YP0E91RT', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
         <Script
           id="structured-data"
           type="application/ld+json"
