@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Linkedin, Github, ExternalLink, Download } from "lucide-react"
+import { Mail, Linkedin, Instagram, Snapchat, Github, ExternalLink, Download } from "lucide-react"
 
 export default function Contact() {
   const containerVariants = {
@@ -51,6 +51,7 @@ export default function Contact() {
     {
       icon: Snapchat,
       label: "Snapchat",
+      value: "Visit Profile",
       href: "https://snapchat.com/add/tharunjam",
       color: "from-orange-500 to-yellow-500",
       external: true,
