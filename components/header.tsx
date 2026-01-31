@@ -39,9 +39,9 @@ export default function Header({ isDark, toggleDarkMode }: HeaderProps) {
               className="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-primary focus:rounded"
             >
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">NB</span>
+                <span className="text-primary-foreground font-bold text-sm">T</span>
               </div>
-              <span className="font-bold text-lg hidden sm:inline">Nikitesh</span>
+              <span className="font-bold text-lg hidden sm:inline">Tharun</span>
             </Link>
 
             {/* Desktop Navigation */}
