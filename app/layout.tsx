@@ -9,9 +9,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nikitesh Bhadade | Sr. UI Developer & React Specialist | Portfolio",
+  title: "Jamparapu Tharun | Digital Marketing Executive & Web developer | Portfolio",
   description:
-    "Sr. Software Engineer with 9.5+ years of experience in React, JavaScript, SASS, and design-to-code conversion. Expert in WCAG AA accessibility standards and pixel-perfect UI development.",
+    "Digital Marketing Executive & Web developer with 1.5+ years of experience in HTML, CSS, React, JavaScript, and Google Ads, SEO, Meta Ads,....etc.Currently, I bridge the gap between technical development and marketing strategy. I specialize in building fast, SEO-optimized web applications using React.js and Next.js, while leveraging my expertise in Google Ads and Analytics to ensure they reach the right audience..",
   keywords: [
     "UI Developer",
     "React Developer",
@@ -20,14 +20,13 @@ export const metadata: Metadata = {
     "SASS",
     "Web Design",
     "Accessibility",
-    "WCAG AA",
-    "Pune",
-    "nikitesh bhadade",
-    "nikitesh bhadade website",
-    "nikitesh.com",
-    "nikitesh",
-    "nikitesh web ui developer",
-    "nikitesh bhadade ui developer"
+    "Hyderabad Tharun",
+    "Jamparapu Tharun",
+    "jamparapu tharun website",
+    "jamparaputharun.in",
+    "tharun",
+    "tharun web ui developer",
+    "jamparapu tharun ui developer"
   ],
   generator: "v0.app",
   openGraph: {
@@ -68,21 +67,15 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-L3XQRP3SR9" />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-L3XQRP3SR9', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0YP0E91RT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X0YP0E91RT');
+</script>
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -90,18 +83,18 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Nikitesh Bhadade",
-              url: "https://nikiteshbhadade.com",
-              jobTitle: "Sr. Software Engineer",
-              email: "nikiteshb@gmail.com",
-              telephone: "+919561501506",
+              name: "Jamparapu Tharun",
+              url: "https://jamparaputharun.in",
+              jobTitle: "Sr. Digital Marketing Executive and Web Developer",
+              email: "tharunjamparapu@gmail.com",
+              telephone: "+917997788621",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Pune",
+                addressLocality: "Hyderabad",
                 addressCountry: "IN",
               },
-              sameAs: ["https://www.linkedin.com/in/nikiteshbhadade/", "https://github.com/nikiteshb"],
-              knowsAbout: ["React.js", "JavaScript", "SASS", "HTML5", "CSS3", "Web Accessibility", "WCAG AA"],
+              sameAs: ["https://www.linkedin.com/in/jamparapu-tharun/", "https://github.com/Toftharun999"],
+              knowsAbout: ["React.js", "JavaScript", "Google Ads", "HTML5", "CSS3", "Web Accessibility", "Meta Ads", "SEO"],
             }),
           }}
         />
