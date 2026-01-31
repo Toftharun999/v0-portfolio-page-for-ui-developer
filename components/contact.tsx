@@ -73,7 +73,7 @@ export default function Contact() {
       const url = window.URL.createObjectURL(blob)
       const a = document.createElement("a")
       a.href = url
-      a.download = "Nikitesh_Bhadade_Resume.txt"
+      a.download = "Jamparapu_Tharun_Resume.txt"
       document.body.appendChild(a)
       a.click()
       window.URL.revokeObjectURL(url)
